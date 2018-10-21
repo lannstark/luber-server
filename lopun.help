@@ -1,0 +1,12 @@
+./docker_run.sh
+docker exec -it stark_psql bash
+psql -U stark
+
+First time or be Fucked) create database luber;
+
+[look database yeahh]
+
+\q
+ctrl + p q
+docker ps
+docker rm -f stark_psql

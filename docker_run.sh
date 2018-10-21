@@ -1,0 +1,1 @@
+docker run --name stark_psql -v pgdata:/var/lib/postgresql/data -e POSTGRES_USER=stark -e POSTGRES_PASSWORD=stark -d -p 5432:5432 postgres
